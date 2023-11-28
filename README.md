@@ -8,11 +8,12 @@ Repository contains Node.js server and React client app.
 
 ![ezgif com-optimize](https://github.com/m-wrzosk/real-time-events/assets/18627402/faef44f9-0906-408a-93a7-453b75786426)
 
-[Deployed app](https://real-time-events.netlify.app/) \
+## Deploy
+[https://real-time-events.netlify.app/](https://real-time-events.netlify.app/) \
 \
 Client app deployed with [netlify](https://www.netlify.com/). \
 Server deployed with [render](https://render.com/). \
-\ 
+\
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5155289d-704e-4734-89c8-788920b91cbd/deploy-status)](https://app.netlify.com/sites/enchanting-selkie-196c0c/deploys) 
 
 ## Used libraries:

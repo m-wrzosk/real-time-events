@@ -1,0 +1,7 @@
+.TopCountries {
+  position: absolute;
+  top: 5px;
+  right: 15px; 
+  z-index: 1;
+  color: white;
+}

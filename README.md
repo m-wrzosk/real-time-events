@@ -3,7 +3,7 @@
 
 Repository contains Node.js server and React client app.
 - WebSocket server that periodically sends events, including a random location (latitude and longitude).
-- Web page that displays the sent events on a 3D globe [react-globe.gl](https://github.com/vasturiano/react-globe.gl) and deletes them after a few seconds.
+- Web page that displays the sent events on a 3D globe and deletes them after a few seconds.
 - List of the top 3 countries in descending order with events for the last 1 minute in the top right corner of the globe, updated every 15 seconds.
 
 ![ezgif com-optimize](https://github.com/m-wrzosk/real-time-events/assets/18627402/faef44f9-0906-408a-93a7-453b75786426)
@@ -11,7 +11,14 @@ Repository contains Node.js server and React client app.
 Deployed app can be viewed at https://real-time-events.netlify.app/ \
 \
 Client app deployed with [netlify](https://www.netlify.com/). \
-Server deployed with [render](https://render.com/).
+Server deployed with [render](https://render.com/). \
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5155289d-704e-4734-89c8-788920b91cbd/deploy-status)](https://app.netlify.com/sites/enchanting-selkie-196c0c/deploys) 
+
+Used libraries:
+- [coordinate_to_country](https://www.npmjs.com/package/coordinate_to_country)
+- [uuid](https://www.npmjs.com/package/uuid)
+- [ws](https://www.npmjs.com/package/ws)
+- [react-use-websocket](https://www.npmjs.com/package/react-use-websocket)
+- [react-globe.gl](https://github.com/vasturiano/react-globe.gl)
 
 _Project inspired by one of the recrutation tasks._

@@ -14,11 +14,12 @@ Client app deployed with [netlify](https://www.netlify.com/). \
 Server deployed with [render](https://render.com/). \
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5155289d-704e-4734-89c8-788920b91cbd/deploy-status)](https://app.netlify.com/sites/enchanting-selkie-196c0c/deploys) 
 
-Used libraries:
+## Used libraries:
 - [coordinate_to_country](https://www.npmjs.com/package/coordinate_to_country)
 - [uuid](https://www.npmjs.com/package/uuid)
 - [ws](https://www.npmjs.com/package/ws)
 - [react-use-websocket](https://www.npmjs.com/package/react-use-websocket)
 - [react-globe.gl](https://github.com/vasturiano/react-globe.gl)
 
+# 
 _Project inspired by one of the recrutation tasks._
